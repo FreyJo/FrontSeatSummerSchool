@@ -12,3 +12,6 @@ The following steps steps will get you started for the exercise sessions:
         Click on it to start building the image and wait until the container runs. Depending on your computer and internet connection, the process can take several minutes.
         You can check that you are running the dev container by looking at the bottom left corner where a field should state “Dev Container: DevContainerFSSS”.
 
+6. Test the container: Open an example: `casadi_test.py` or `mpc_acados/minimal_example_ocp.py`
+       Open the command palette (Crtl+Shift+p) -> "Python: Run Python file in terminal" -> enter
+
