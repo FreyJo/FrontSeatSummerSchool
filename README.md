@@ -2,7 +2,10 @@ The following steps steps will get you started for the exercise sessions:
 
 1. Clone / Download this repository
 2. Install VSCode: https://code.visualstudio.com/
-3. Install Docker Desktop: https://docs.docker.com/desktop/
+3. Install Docker Desktop for your operating system:
+   [Ubuntu](https://docs.docker.com/desktop/install/ubuntu/), [Other Linux](https://docs.docker.com/desktop/install/linux-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/), [MacOS](https://docs.docker.com/desktop/install/mac-install/).
+   On Linux, you may need to follow the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) steps for
+   plotting.
 4. Install the app Dev Containers in VSCode:
         Open the Extension Marketplace: https://code.visualstudio.com/docs/editor/extension-marketplace
         Search and install Dev Containers
