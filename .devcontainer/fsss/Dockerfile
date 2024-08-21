@@ -65,3 +65,4 @@ RUN pip3 install --no-cache-dir future
 # Add packages for SIPPY
 RUN pip3 install --no-cache-dir control
 #RUN pip3 install --no-cache-dir slycot
+RUN pip3 install --no-cache-dir keras
