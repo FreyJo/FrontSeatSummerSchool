@@ -68,13 +68,9 @@ RUN pip3 install -e /app/acados/interfaces/acados_template
 RUN pip3 install --no-cache-dir future
 # Add packages for SIPPY
 RUN pip3 install --no-cache-dir control
-#RUN pip3 install --no-cache-dir slycot
-RUN pip3 install --no-cache-dir keras
-
-#RUN conda build -c conda-forge conda-recipe
-#RUN conda install -c conda-forge --use-local slycot
-
-#conda install -c conda-forge slycot
 RUN pip3 install scikit-build
 RUN pip3 install setuptools_scm
 RUN pip install -v slycot
+
+# Add packages for Machine Learning tutorial
+RUN pip3 install --no-cache-dir keras
