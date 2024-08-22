@@ -15,8 +15,12 @@ RUN apt-get update && \
     python3 \
     python3-pip \
     python3-tk \
+    python3-dev \
     curl \
     libgfortran5 \
+    gcc \
+    gfortran \
+    libopenblas-dev \
     && rm -rf /var/lib/apt/lists/
 
 # Set the working directory
@@ -66,3 +70,11 @@ RUN pip3 install --no-cache-dir future
 RUN pip3 install --no-cache-dir control
 #RUN pip3 install --no-cache-dir slycot
 RUN pip3 install --no-cache-dir keras
+
+#RUN conda build -c conda-forge conda-recipe
+#RUN conda install -c conda-forge --use-local slycot
+
+#conda install -c conda-forge slycot
+RUN pip3 install scikit-build
+RUN pip3 install setuptools_scm
+RUN pip install -v slycot

@@ -119,3 +119,6 @@ Rss = np.zeros((u.size1(),u.size1())) # Control matrix
 Qy = np.diag([1,1])
 Q = np.dot(C.T,np.dot(Qy,C))
 S = np.diag([10,20])
+
+
+pathfigure = 'MPC_Images/'
